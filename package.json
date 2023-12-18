@@ -1,0 +1,46 @@
+{
+  "name": "vividly-ui",
+  "version": "1.0.0",
+  "private": false,
+  "main": "./dist/vividly-ui.umd.js",
+  "module": "./dist/vividly-ui.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vividly-ui.es.js",
+      "require": "./dist/vividly-ui.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "highlight.js": "^11.9.0",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.3.2",
+    "@vitejs/plugin-vue": "^4.3.1",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "@vue/test-utils": "^2.4.1",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.46.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "jest": "^29.7.0",
+    "jsdom": "^22.1.0",
+    "less": "^4.2.0",
+    "prettier": "^3.0.0",
+    "vite": "^4.5.0",
+    "vite-plugin-vue-markdown": "^0.23.8",
+    "vitest": "^0.34.2"
+  }
+}
