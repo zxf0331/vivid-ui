@@ -1,11 +1,11 @@
 
 - 安装组件库
 
-    npm install vividly-ui 
+    npm install vividity-ui 
 
 - 全局导入
 
-    import VividlyUi from 'vividy-ui'
+    import VividlyUi from 'vividity-ui'
   
     import '../node_modules/vividly-ui/dist/style.css'
     
