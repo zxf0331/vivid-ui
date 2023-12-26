@@ -5,8 +5,8 @@
 
 - 全局导入
 
-    import VividlyUi from 'vividity-ui'
+    import VividUi from 'vividity-ui'
   
-    import '../node_modules/vividly-ui/dist/style.css'
+    import '../node_modules/vividity-ui/dist/style.css'
     
-    Vue.use(VividlyUi)
+    Vue.use(VividUi)
